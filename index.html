@@ -2,203 +2,262 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,minimun-scale=1,maximum-scale=1, initial-scale=1">
-	<!-- <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1'> -->
-    
-	<title>Responsive Dashboard Dark</title>
-	<link rel="stylesheet" type="text/css" href="library/css/style.css">
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="library/css/stylesheet.css">
+
+	<title>Dashboard Admin White</title>
+
 </head>
 <body>
 
-	<input type="checkbox" id="menu-toggle">
-
+	<input type="checkbox"  name="" id="sidebar-toggle">
 	<div class="sidebar">
 		
-		<div class="brand">
-			<span class="fa fa-affiliatetheme"></span>
-			<h2>Artist</h2>				
+		<div class="sidebar-header">
+			<h3 class="brand">
+				<span class="fa fa-google-wallet"></span>
+				<span>easywire</span>
+			</h3>	
+			<label for="sidebar-toggle" class="fa fa-bars"></label>
 		</div>
-		
-		<div class="sidemenu">
-			
-			<div class="side-user">
-				<div class="side-img" style="background-image: url(library/images/user.jpg)"></div>
-				<div class="user">
-					<small>Léonard Vinci</small>
-					<p>Software Developer</p>
-				</div>
-			</div>
-			
+
+		<div class="sidebar-menu">
 			<ul>
-				<li>
-					<a href="#"> 
-						<span class="fa fa-home"></span> 
-						<span>Dashboard</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#" class="active"> 
-						<span class="fa fa-balance-scale"></span> 
-						<span>Finance</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-line-chart"></span> 
-						<span>Analytics</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-calendar"></span> 
-						<span>Calendar</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-users"></span> 
-						<span>Contacts</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-shopping-cart"></span> 
-						<span>Ecommerce</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-envelope"></span> 
-						<span>Mailbox</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-check-circle"></span> 
-						<span>Tasks</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-lock"></span> 
-						<span>Authentication</span> 
-					</a>
-				</li>
-
-				<li>
-					<a href="#"> 
-						<span class="fa fa-usd"></span> 
-						<span>Pricing</span> 
-					</a>
-				</li>
-
+				<li><a href=""><span class="fa fa-home"></span><span>Home</span></a></li>
+				<li><a href=""><span class="fa fa-music"></span><span>Team</span></a></li>
+				<li><a href=""><span class="fa fa-user"></span><span>Tasks</span></a></li>
+				<li><a href=""><span class="fa fa-power-off"></span><span>Leaves</span></a></li>
+				<li><a href=""><span class="fa fa-gear"></span><span>Projects</span></a></li>
+				<li><a href=""><span class="fa fa-download"></span><span>Timesheet</span></a></li>
+				<li><a href=""><span class="fa fa-plus-circle"></span><span>Contacts</span></a></li>
+				<li><a href=""><span class="fa fa-lock"></span><span>Account</span></a></li>
 			</ul>
-
 		</div>
 
-	</div>
+	</div><!-- END sidebar -->
 
 	<div class="main-content">
-		
-		<header>			
-			
-			<label for="menu-toggle" class="menu-toggler">
-				<span class="fa fa-bars"></span>
-			</label>
 
-			<div class="search">
+		<header>
+			<div class="search-wrapper"> 
 				<span class="fa fa-search"></span>
-				<input type="search" name="" placeholder="Enter keyword">
+				<input type="search" placeholder="search">
 			</div>
 
-			<div class="head-icons">
-				<span class="fa fa-bell"></span>
-				<span class="fa fa-bookmark"></span>
-				<span class="fa fa-comment"></span>
+			<div class="social-icons">
+				<span class="fa fa-bookmark-o"></span>
+				<span class="fa fa-bell-o"></span>
+				<div></div>
 			</div>
-
 		</header>
 
 		<main>
-			<div class="cards">
+			<h2 class="dash-title">Overview</h2>
 
-				<div class="card">
-
-					<div class="card-icon follow">
-						<span class="fa fa-users"></span>
+			<div class="dash-cards">
+				<div class="card-single">
+					<div class="card-body">
+						<span class="fa fa-bar-chart-o"></span>
+						<div>
+							<h5> Account Balance</h5>
+							<h4>$30,2333.23</h4>
+						</div>
 					</div>
-					<div class="card-info">
-						<h2>3,4</h2>
-						<small>Total follwers</small>
+					<div class="card-footer">
+						<a href="fa fa-folder-open">View all</a>
 					</div>
-					<div class="card-images">
-						<div style="background-image: url(library/images/user.jpg)"></div>
-						<div style="background-image: url(library/images/img1.png)"></div>
-						<div style="background-image: url(library/images/img2.png)"></div>
-						<div style="background-image: url(library/images/img3.png)"></div>
-						<div style="background-image: url(library/images/img4.jpg)"></div>
-					</div>
-
 				</div>
 
-				<div class="card">
-				
-					<div class="card-icon likes">
-						<span class="fa fa-heart"></span>
+				<div class="card-single">
+					<div class="card-body">
+						<span class="fa fa-share-square"></span>
+						<div>
+							<h5>Pending</h5>
+							<h4>$10,2333.23</h4>
+						</div>
 					</div>
-					<div class="card-info">
-						<h2>19,876</h2>
-						<small>Total likes</small>
+					<div class="card-footer">
+						<a href="fa fa-folder-open">View all</a>
 					</div>
-					<div class="card-images">
-						<div style="background-image: url(library/images/user.jpg)"></div>
-						<div style="background-image: url(library/images/img1.png)"></div>
-						<div style="background-image: url(library/images/img2.png)"></div>
-						<div style="background-image: url(library/images/img3.png)"></div>
-						<div style="background-image: url(library/images/img4.jpg)"></div>
-					</div>
-				
 				</div>
 
-				<div class="card">
-
-					<div class="card-icon comment">
-						<span class="fa fa-comment"></span>
+				<div class="card-single">
+					<div class="card-body">
+						<span class="fa fa-database"></span>
+						<div>
+							<h5>Processed</h5>
+							<h4>$50,2333.23</h4>
+						</div>
 					</div>
-					<div class="card-info">
-						<h2>212,876</h2>
-						<small>Total comments</small>
+					<div class="card-footer">
+						<a href="fa fa-folder-open">View all</a>
 					</div>
-					<div class="card-images">
-						<div style="background-image: url(library/images/user.jpg)"></div>
-						<div style="background-image: url(library/images/img1.png)"></div>
-						<div style="background-image: url(library/images/img2.png)"></div>
-						<div style="background-image: url(library/images/img3.png)"></div>
-						<div style="background-image: url(library/images/img4.jpg)"></div>
-					</div>
-				
 				</div>
 
-			</div>
+			</div><!-- END dashboard-cards-->
 
-			<!-- <div class="chart-grid">
+			<section class="recent">
+				<div class="activity-grid">
+					<div class="activity-card">
+						<h3>Recent activity</h3>
+
+						<div class="table-responsive">	
+							<table>
+								<thead>
+									
+									<tr>
+										<th>Project</th>
+										<th>Start date</th>
+										<th>End date</th>
+										<th>Team</th>
+										<th>Status</th>
+									</tr>
+
+								</thead>
+
+								<tbody>
+
+									<tr>
+										<td>App Development</td>
+										<td>15 Aug, 2020</td>
+										<td>12 Aug, 2020</td>
+										<td class="td-team">
+											<div class="img-1"></div>	
+											<div class="img-2"></div>	
+											<div class="img-3"></div>	
+										</td>
+										<td>
+											<span class="badge success">
+												Success
+											</span>
+										</td>
+									</tr>
+
+									<tr>
+										<td>Log Design</td>
+										<td>15 Aug, 2020</td>
+										<td>12 Aug, 2020</td>
+										<td class="td-team">
+											<div class="img-1"></div>	
+											<div class="img-2"></div>	
+											<div class="img-3"></div>	
+										</td>
+										<td>
+											<span class="badge warning">
+												Processing
+											</span>
+										</td>
+									</tr>
+
+									<tr>
+										<td>Front-end Design</td>
+										<td>15 Aug, 2020</td>
+										<td>12 Aug, 2020</td>
+										<td class="td-team">
+											<div class="img-1"></div>	
+											<div class="img-2"></div>	
+											<div class="img-3"></div>	
+										</td>
+										<td>
+											<span class="badge success">
+												Success
+											</span>
+										</td>
+									</tr>
+
+									<tr>
+										<td>Web Design</td>
+										<td>15 Aug, 2020</td>
+										<td>12 Aug, 2020</td>
+										<td class="td-team">
+											<div class="img-1"></div>	
+											<div class="img-2"></div>	
+											<div class="img-3"></div>	
+										</td>
+										<td>
+											<span class="badge success">
+												Success
+											</span>
+										</td>
+									</tr>
+
+									<tr>
+										<td>Server setup</td>
+										<td>15 Aug, 2020</td>
+										<td>12 Aug, 2020</td>
+										<td class="td-team">
+											<div class="img-1"></div>
+											<div class="img-2"></div>	
+											<div class="img-3"></div>	
+										</td>
+										<td>
+											<span class="badge warning">
+												Processing
+											</span>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div><!-- END table-responsive -->
+
+					</div>
+
+					<div class="summary">
+
+						
+							
+							<div class="summary-single">
+								<span class="fa fa-cc-visa"></span>
+								<div>
+									<h5>198</h5>
+									<small>Number of staff</small>
+								</div>
+							</div>					
+							
+							<div class="summary-single">
+								<span class="fa fa-globe"></span>
+								<div>
+									<h5>19</h5>
+									<small>Number of leave</small>
+								</div>
+							</div>					
+						
+							<div class="summary-single">
+								<span class="fa fa-chain"></span>
+								<div>
+									<h5>12</h5>
+									<small>Profile update request</small>
+								</div>					
+							</div>	
+
+						<div class="bday-card">
+							<div class="bday-flex">
+
+								<div class="bday-img"></div>
+								<div class="bday-info">
+									<h5>Dwayne F. sanders</h5>
+									<small> Birthday Today</small>								
+								</div>
+							</div>
+
+							<div class="text-center">
+								<button>
+									<span class="fa fa-gift"></span>
+										Wish him
+								</button>
+							</div>
+							
+						</div>
+						
+					</div>
+
+				</div><!--END activity-grid-->
 				
-			</div> -->
-
+			</section>
 		</main>
-		
-	</div>
 
-	<label class="close-mobile-menu" for="menu-toggle"></label>
+	</div><!--END main-content-->
 
 </body>
 </html>
